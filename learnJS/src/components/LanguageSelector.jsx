@@ -22,7 +22,6 @@ const LanguageSelector = ({ language, onSelect }) => {
                 > typescript
                 </button>
             </div>
-            <p className="text-lg">Lenguaje seleccionado: {language}</p>
         </div>
     );
 };
