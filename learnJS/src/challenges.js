@@ -5,26 +5,10 @@ export const challenges = [
         description: 'Crear una función que reciba dos números y devuelva su suma.',
         difficulty: 'Fácil',
         tests: [
-            {
-                title: 'Test 1',
-                description: 'Debe devolver la suma de 2 números positivos',
-                test: [
-                    {args: [2, 3], expected: 5},
-                    {args: [4, 7], expected: 11},
-                    {args: [4, -7], expected: -3},
-                    {args: [-4, 7], expected: 3},
-
-
-                ]
-            },
-            {
-                title: 'Test 2',
-                description: 'Debe devolver la suma de un número positivo y uno negativo',
-                test: (func) => {
-                    return func(-4, 7) === 3;
-                }
-            },
-            // Otros tests...
+            { args: [2, 3], expected: 5 },
+            { args: [4, 7], expected: 11 },
+            { args: [4, -7], expected: -3 },
+            { args: ["hola", 7], expected: "hola7" },
         ]
     },
     {

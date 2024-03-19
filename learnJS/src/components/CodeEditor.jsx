@@ -44,7 +44,7 @@ const CodeEditor = () => {
                                 Retos
                             </span>
                         </button>
-                        <Output editorRef={editorRef} language={language} task={challengeSelected.description} />
+                        <Output editorRef={editorRef} language={language} challenge={challengeSelected} />
 
                     </div>
                     :
